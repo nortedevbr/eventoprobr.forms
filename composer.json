@@ -1,0 +1,32 @@
+{
+  "name": "nortedevbr/eventoprobr.forms",
+  "description": "Componente de geração de formuláros",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alessandro P. Souza",
+      "email": "alessandro-design@hotmail.com",
+      "role": "Developer",
+      "homepage": "https://www.alessandrodesign.com.br"
+    },
+    {
+      "name": "Norte Dev",
+      "email": "suporte@norte.dev.br",
+      "role": "CEO",
+      "homepage": "https://www.norte.dev.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "nortedevbr\\eventoprobr\\forms\\": "./src"
+    }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-dom": "*"
+  }
+}
